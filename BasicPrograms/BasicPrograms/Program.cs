@@ -12,7 +12,7 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to basic program");
             BasicProgram prob = new BasicProgram();
-            prob.Check_leap_year();
+            prob.Powertwo();
             Console.ReadLine();
         }
     }
