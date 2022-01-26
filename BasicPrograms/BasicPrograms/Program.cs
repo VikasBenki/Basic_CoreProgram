@@ -11,6 +11,8 @@ namespace BasicPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to basic program");
+            BasicProgram prob = new BasicProgram();
+            prob.Check_leap_year();
             Console.ReadLine();
         }
     }
