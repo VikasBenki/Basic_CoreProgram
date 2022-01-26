@@ -12,7 +12,7 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to basic program");
             BasicProgram prob = new BasicProgram();
-            prob.Harmonic_number();
+            prob.Factorization(36);
             Console.ReadLine();
         }
     }
