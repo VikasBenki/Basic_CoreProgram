@@ -10,6 +10,8 @@ namespace BasicPrograms
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to basic program");
+            Console.ReadLine();
         }
     }
 }
