@@ -12,8 +12,10 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to basic program");
             BasicProgram prob = new BasicProgram();
-          
-            prob.Evenodd();
+            
+            prob.vowel_consonant();
+
+           
             Console.ReadLine();
         }
     }
