@@ -12,7 +12,8 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to basic program");
             BasicProgram prob = new BasicProgram();
-            prob.SwapingOfNumbers();
+          
+            prob.Evenodd();
             Console.ReadLine();
         }
     }

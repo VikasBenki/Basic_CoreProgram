@@ -8,21 +8,23 @@ namespace BasicPrograms
 {
     internal class BasicProgram
     {
-        public void SwapingOfNumbers()
+        public void Evenodd()
+        {
+            int number;
+            Console.WriteLine("Enter number");
+            number = Convert.ToInt32(Console.ReadLine());
+            if (number % 2 == 0)
             {
-                int a , b ;
-            Console.WriteLine("Enter the value of a");
-            a =Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter the value of b");
-            b =Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine("Before swap a= " + a + " b= " + b);
-                a = a * b;     
-                b = a / b;      
-                a = a / b;     
-                Console.Write("After swap a= " + a + " b= " + b);
+                Console.Write("Entered Number is an Even Number");
+                Console.Read();
             }
-        
+            else
+            {
+                Console.Write("Entered Number is an Odd Number");
+                Console.Read();
+            }
+        }
+
     }
     
         
