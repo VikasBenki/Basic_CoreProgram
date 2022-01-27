@@ -8,31 +8,16 @@ namespace BasicPrograms
 {
     internal class BasicProgram
     {
-        
-        
-            public void Factorization(int num)
-            {
-                Console.WriteLine("Enter the number");
-                for (int i = 2; i <= num; i++)
-                {
-                    if (num % i == 0)
-                    {
-                        int isprime = 1;
-                        for (int j = 2; j <= i / 2; j++)
-                        {
-                            if (i % j == 0)
-                            {
-                                isprime = 0;
-                                break;
-                            }
-                        }
-                        if (isprime == 1)
-                        {
-                            Console.WriteLine(i);
-                        }
-                    }
-                }
-            }
-        
+        public void Quotientremainder(int dividend, int divisor)
+        {
+            int quotient = dividend / divisor;
+            int remainder = dividend % divisor;
+
+            Console.WriteLine("Dividend:" + dividend + " Divisor: " + divisor);
+            Console.WriteLine("Quotient = " + quotient);
+            Console.WriteLine("Remainder = " + remainder);
+        }
     }
+        
+    
 }
