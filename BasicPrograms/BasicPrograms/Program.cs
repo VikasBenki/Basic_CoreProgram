@@ -12,10 +12,10 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to basic program");
             BasicProgram prob = new BasicProgram();
-            
-            prob.vowel_consonant();
-
            
+         prob.largest_num(); 
+
+
             Console.ReadLine();
         }
     }
