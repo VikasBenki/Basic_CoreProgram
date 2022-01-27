@@ -8,16 +8,23 @@ namespace BasicPrograms
 {
     internal class BasicProgram
     {
-        public void Quotientremainder(int dividend, int divisor)
-        {
-            int quotient = dividend / divisor;
-            int remainder = dividend % divisor;
+        public void SwapingOfNumbers()
+            {
+                int a , b ;
+            Console.WriteLine("Enter the value of a");
+            a =Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the value of b");
+            b =Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Dividend:" + dividend + " Divisor: " + divisor);
-            Console.WriteLine("Quotient = " + quotient);
-            Console.WriteLine("Remainder = " + remainder);
-        }
+                Console.WriteLine("Before swap a= " + a + " b= " + b);
+                a = a * b;     
+                b = a / b;      
+                a = a / b;     
+                Console.Write("After swap a= " + a + " b= " + b);
+            }
+        
     }
+    
         
     
 }
